@@ -38,9 +38,9 @@ class Test_001_Title:
         # Checking if the actual title matches the expected title
         if act_title == "OrangeHRM":
             assert True
-            print("Title matches: Test Passed")
+            print("Title matches: Title Test Passed")
         else:
             assert False
-            print("Title doesn't match: Test Failed")
+            print("Title doesn't match: Title Test Failed")
 
 

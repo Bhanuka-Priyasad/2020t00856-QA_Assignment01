@@ -74,9 +74,9 @@ class Test_003_Leave:
         #print(act_heading)
         if act_title == "OrangeHRM" and act_heading_translated == "Leave":
             assert True
-            print("Title and Heading match: Test Passed")
+            print("Title and Heading match: Leave Test Passed")
         else:
             assert False
-            print("Title and Heading doesn't match: Test Failed")
+            print("Title and Heading doesn't match: Leave Test Failed")
             print(act_heading.text)
 

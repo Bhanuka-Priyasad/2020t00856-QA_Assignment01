@@ -83,9 +83,9 @@ class Test_004_Logout:
         # Checking if the actual title and the heading matches the expected title and the heading on Home page
         if act_title == "OrangeHRM" and act_heading_translated == "Login":
             assert True
-            print("Title and Heading match: Test Passed")
+            print("Title and Heading match: Logout Test Passed")
         else:
             assert False
-            print("Title and Heading doesn't match: Test Failed")
+            print("Title and Heading doesn't match: Logout Test Failed")
             print(act_heading.text)
 
